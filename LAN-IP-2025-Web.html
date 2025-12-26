@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Impacto | Lástima a Nadie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #1e293b, #475569);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .metric-badge {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(4px);
+        }
+        .premium-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+            border: 1px solid #e2e8f0;
+        }
+        .analysis-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- Hero Section -->
+    <header class="bg-white border-b border-slate-200 py-12 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <p class="text-sm font-semibold tracking-widest uppercase text-slate-500 mb-2">Análisis de Performance 2025</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">Lástima a Nadie</h1>
+            <p class="text-lg text-slate-600 italic">"Historias de protagonistas de la cultura"</p>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6 py-12">
+        
+        <!-- Resumen de Inversión y Ejecución -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                <p class="text-slate-500 text-xs uppercase tracking-wider font-bold mb-1">Inversión Total</p>
+                <p class="text-2xl font-bold text-slate-900">$112.375,92</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                <p class="text-slate-500 text-xs uppercase tracking-wider font-bold mb-1">Campañas</p>
+                <p class="text-2xl font-bold text-slate-900">2 Realizadas</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                <p class="text-slate-500 text-xs uppercase tracking-wider font-bold mb-1">Anuncios</p>
+                <p class="text-2xl font-bold text-slate-900">4 Piezas</p>
+            </div>
+        </section>
+
+        <!-- El Hook del Estadio -->
+        <section class="bg-slate-900 text-white rounded-3xl p-8 mb-12 shadow-xl relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-3xl mb-4">"Llenamos un Estadio"</h2>
+                <p class="text-slate-300 text-lg leading-relaxed mb-8">
+                    Con una inversión mínima, logramos que el podcast deje de ser un secreto. Tu contenido se desplegó frente a una audiencia masiva, logrando un reconocimiento de marca sin precedentes.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 border-t border-slate-700 pt-8 text-center md:text-left">
+                    <div>
+                        <p class="text-slate-400 text-sm">Alcance Total</p>
+                        <p class="text-4xl font-bold text-white">112.172</p>
+                        <p class="text-xs text-slate-400">Impactos únicos</p>
+                    </div>
+                    <div>
+                        <p class="text-slate-400 text-sm">Interés Real</p>
+                        <p class="text-4xl font-bold text-white">23.102</p>
+                        <p class="text-xs text-slate-400">Señales de atención</p>
+                    </div>
+                    <div class="flex items-center justify-center md:justify-start">
+                        <div class="metric-badge p-4 rounded-xl border border-slate-700">
+                             <p class="text-xs text-slate-300 uppercase font-bold">Costo por persona</p>
+                             <p class="text-xl font-bold text-emerald-400">$1,01</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Decorative circle -->
+            <div class="absolute -right-20 -bottom-20 w-64 h-64 bg-slate-800 rounded-full opacity-50"></div>
+        </section>
+
+        <!-- Analogía -->
+        <section class="mb-12">
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl">
+                <p class="text-blue-900 italic leading-relaxed">
+                    Haber llegado a más de 112.000 personas equivale a llenar <strong>el Estadio Monumental</strong> y medio. Lograr esta escala con una inversión tan baja demuestra una eficiencia publicitaria excepcional.
+                </p>
+            </div>
+        </section>
+
+        <!-- El Anuncio Estrella -->
+        <section class="mb-12 bg-white rounded-3xl p-8 border-2 border-indigo-50 shadow-sm relative">
+            <div class="absolute -top-4 right-8 bg-indigo-600 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+                Mejor Rendimiento
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-slate-900">LAN Campaña 1 (Instagram)</h3>
+            <p class="text-slate-600 mb-6 italic text-sm">Destacados: Anuncio de "Cocó" y Anuncio de "Lucía Bossa"</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-indigo-50 p-5 rounded-2xl text-center md:text-left">
+                    <p class="text-indigo-900 font-bold text-3xl">49.606</p>
+                    <p class="text-indigo-700 text-sm font-medium">Nuevos oyentes alcanzados</p>
+                </div>
+                <div class="bg-emerald-50 p-5 rounded-2xl text-center md:text-left">
+                    <p class="text-emerald-900 font-bold text-3xl">12.595</p>
+                    <p class="text-emerald-700 text-sm font-medium">Interacciones profundas</p>
+                </div>
+            </div>
+            <p class="mt-6 text-slate-600 text-sm leading-relaxed">
+                Este fue el conjunto con mayor impacto. Dentro de la Campaña 1, las piezas de <strong>"Cocó"</strong> y <strong>"Lucía Bossa"</strong> se convirtieron en la puerta de entrada principal para el podcast, conectando con un público culturalmente activo que no solo vio el anuncio, sino que interactuó con él.
+            </p>
+        </section>
+
+        <!-- Explicación de Métricas -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-bold mb-6 text-slate-900">¿Qué compramos con la inversión?</h3>
+            
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card">
+                    <div class="flex items-center mb-3">
+                        <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 7v5l3 3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4 class="font-bold text-lg">Visibilidad (Alcance)</h4>
+                    </div>
+                    <p class="text-slate-600">Es la cantidad de gente que vio el podcast por primera vez. Logramos que <strong>cada nuevo oido te cueste menos que un caramelo</strong>. Es la forma más barata y masiva de ganar terreno.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 card">
+                    <div class="flex items-center mb-3">
+                        <div class="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h4 class="font-bold text-lg">Atención (Interacciones)</h4>
+                    </div>
+                    <p class="text-slate-600">Representa a las <strong>23.102 personas</strong> que pausaron lo que estaban haciendo para prestarle atención a una historia. Es el primer paso para convertir a un extraño en un seguidor fiel.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Análisis: Alcance Orgánico vs Anuncios -->
+        <section class="mb-12 analysis-card rounded-3xl p-8">
+            <h3 class="text-2xl font-bold mb-6 text-slate-900 leading-tight">📊 Alcance Orgánico vs. Anuncios</h3>
+            
+            <div class="mb-8 h-72 w-full relative">
+                <canvas id="organicVsPaidChart"></canvas>
+                <!-- Centro del gráfico -->
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center pointer-events-none mt-[-20px] md:mt-[-15px]">
+                    <p class="text-[10px] uppercase font-bold text-slate-400">Total</p>
+                    <p class="text-xl font-bold text-slate-800">112k</p>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <p class="text-slate-700 text-sm leading-relaxed">
+                    El alcance total del contenido durante el período analizado fue de <strong>112.172 visualizaciones</strong>. De ese total, la gran mayoría provino de campañas pagas, mientras que el alcance orgánico representó una porción menor.
+                </p>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h4 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-3 italic">🧠 Contexto del nicho cultural</h4>
+                    <p class="text-xs text-slate-600 leading-relaxed mb-4 text-justify">
+                        Esto no indica un problema de contenido. El sector cultural y de podcasts es un nicho altamente competitivo, con gran volumen de propuestas y una atención limitada. En este escenario, el alcance orgánico es naturalmente bajo, incluso para contenidos de calidad.
+                    </p>
+                    <ul class="text-xs text-slate-600 space-y-2 font-medium">
+                        <li>• <strong>El contenido funciona:</strong> La pauta no reemplaza al contenido, lo habilita.</li>
+                        <li>• <strong>Escala real:</strong> La pauta permite que el contenido entre en competencia real y aparezca frente a nuevas audiencias.</li>
+                        <li>• <strong>Estrategia vs Azar:</strong> El alcance deja de depender del azar algorítmico y pasa a depender de una decisión estratégica.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-indigo-50 p-6 rounded-2xl border border-indigo-100">
+                    <h4 class="text-sm font-bold text-indigo-900 uppercase tracking-wider mb-2">🧩 Próximo paso: Hub Central Propio</h4>
+                    <p class="text-xs text-indigo-800 leading-relaxed">
+                        Para capitalizar este alcance, el paso lógico es desarrollar un <strong>sitio web propio</strong>. Esto permitirá transformar el alcance en plataformas de terceros en patrimonio digital, reduciendo la dependencia de las redes sociales.
+                    </p>
+                    <p class="text-xs font-bold text-indigo-700 mt-3 text-center uppercase tracking-widest">
+                        Convertir plataformas en puertas de entrada, no en destino final.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights Cortos -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-bold mb-6 text-slate-900">En resumen</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-6 bg-slate-100 rounded-2xl">
+                    <p class="font-bold mb-2">Instagram es la clave</p>
+                    <p class="text-sm text-slate-600">Los <strong>reels</strong> fueron el formato de mejor rendimiento, confirmando que el video corto es clave para captar la atención inicial.</p>
+                </div>
+                <div class="p-6 bg-slate-100 rounded-2xl">
+                    <p class="font-bold mb-2">Presencia Constante</p>
+                    <p class="text-sm text-slate-600">La pauta permitió romper el techo orgánico y validar formatos. El desafío ahora es construir de forma sostenida.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recomendaciones Finales -->
+        <section class="bg-indigo-600 text-white rounded-3xl p-8 text-center shadow-lg shadow-indigo-200">
+            <h3 class="text-2xl font-bold mb-4">Próximos Pasos</h3>
+            <p class="mb-8 text-indigo-100 italic">"De picos de alcance a construcción sostenida"</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <div class="bg-indigo-500 px-6 py-3 rounded-full text-sm font-semibold">Duplicar apuesta en Reels</div>
+                <div class="bg-indigo-500 px-6 py-3 rounded-full text-sm font-semibold">Inversión Sostenida Mensual</div>
+                <div class="bg-indigo-500 px-6 py-3 rounded-full text-sm font-semibold">Desarrollo de Hub Central</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-12 text-center text-slate-400 text-sm">
+        <p>© 2025 Reporte de Performance para Lástima a Nadie</p>
+    </footer>
+
+    <script>
+        const ctx = document.getElementById('organicVsPaidChart').getContext('2d');
+        
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Anuncios: 110.888', 'Orgánico: 1.284'],
+                datasets: [{
+                    data: [110888, 1284],
+                    backgroundColor: ['#4f46e5', '#e2e8f0'],
+                    borderWidth: 0,
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '75%',
+                plugins: {
+                    legend: { 
+                        display: true, 
+                        position: 'bottom',
+                        labels: { 
+                            padding: 20,
+                            usePointStyle: true,
+                            font: { size: 12, weight: '600', family: 'Inter' },
+                            color: '#475569'
+                        } 
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
